@@ -33,9 +33,11 @@ def play (songs)
       if answer == (index+1).to_s || answer == song.to_s
         break puts "Playing #{song}" 
       else  
-        puts "Invalid input, please try again"
+        
       end 
+      
     end
+    puts "Invalid input, please try again"
 end 
 
 
